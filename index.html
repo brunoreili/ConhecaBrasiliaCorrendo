@@ -10,57 +10,95 @@
 <body>
     <div class="container">
         <div class="panel-group" id="paineis-instrucao">
-
-            <div class="panel panel-default">
+            
+            <!--Navbar-->
+            <nav class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#pragrafo-navbar" data-parent="#paineis-instrucao">
+                    <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-navbar" data-parent="#paineis-instrucao">
                         [NAVBAR] Logo, campo de pesquisa e menus (atalhos, login, loja e etc)
-                    </h3>
+                    </h2>
                 </div>
                 <div id="pragrafo-navbar" class="collapse in">
-                    <div class="panel-body">   
-                         <p>- A navbar deve acompanhar a navegação até o final da página
-                        <br>- Pode conter icone de alerta com mensagens, promoções, notícias, etc
-                        <br>- Pode conter submenus laterais (minimizados em estilo sanduiche)</p>
-                    </div>
+                    <ul class="panel-body">
+                        <li>A navbar deve acompanhar a navegação até o final da página</li>
+                        <li>Pode conter icone de alerta com mensagens, promoções, notícias, etc</li>
+                        <li>Pode conter submenus laterais (minimizados em estilo sanduiche)</li>
+                    </ul>
                 </div>
-            </div>
+            </nav>
 
-            <div class="panel panel-default">
+            <!--Imagens Grandes-->
+            <header class="panel panel-default">
                 <div class="panel-heading">   
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#pragrafo-imagem" data-parent="#paineis-instrucao">[IMAGENS GRANDE] Imagem no estilo Carrossel, ocupando a tela toda</h3>
+                    <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-imagem" data-parent="#paineis-instrucao">
+                        [IMAGENS GRANDES] Imagem no estilo Carrossel, ocupando a tela toda
+                    </h2>
                 </div>
                 <div id="pragrafo-imagem" class="collapse">
-                    <div class="panel-body">
-                         <p>- Na imagem deve conter informações básicas da prova(Nome da prova, numero de etapas, nível e quantidade de etapas realizadas) além do botão de se increver/acompanhar(para logados incritos)</p>
-                    </div>
+                    <ul class="panel-body">
+                        <li>Na imagem deve conter informações básicas da prova(Nome da prova, numero de etapas, nível e quantidade de etapas realizadas) além do botão de se increver/acompanhar(para logados incritos)</li>
+                    </ul>
                 </div>
-            </div>
-            
-            <div class="panel panel-default">
+            </header>
+
+            <!--Provas-->
+            <main class="panel panel-default">
                 <div class="panel-heading">   
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#pragrafo-provas" data-parent="#paineis-instrucao">[PROVAS] Imagens clicáveis (galerias) com as provas disponíveis</h3>
+                    <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-provas" data-parent="#paineis-instrucao">
+                        [PROVAS] Imagens clicáveis, estilo tumbnails (galerias) com as provas disponíveis
+                    </h2>
                 </div>
                 <div id="pragrafo-provas" class="collapse">
-                    <div class="panel-body">
-                         <p>- Cada imagem contém as informações básicas das provas (nomes, tipo, nível, número de etapas etc)
-                        <br>- São links para as subpáginas das provas
-                        <br>- Deve ter botão de mais informações, redirecionado para a página da prova e botão de se inscrever
-                        <br>- Na parte geral, deve ter link iconificado para pagina com todas as provas e etapas</p>
-                    </div>
+                    <ul class="panel-body">
+                        <li>Cada imagem contém as informações básicas das provas (nomes, tipo, nível, número de etapas etc)</li>
+                        <li>São links para as subpáginas das provas</li>
+                        <li>Deve ter botão de mais informações, redirecionado para a página da prova e botão de se inscrever</li>
+                        <li>Na parte geral, deve ter link iconificado para pagina com todas as provas e etapas</li>
+                    </ul>
                 </div>
-            </div>
-            
-            <div class="panel panel-default">
+            </main>        
+
+                <!--Tubnails-->
+            <figure class="thumbnail">
+                <img src="img/series/street-series.png" alt="Imagem da prova street series">
+                <figcaption class="caption">
+                    <h3>STREET SERIES</h3>
+                    <p>12 etapas</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                </figcaption> 
+            </figure>
+
+            <figure class="thumbnail">
+                <img src="img/series/shopping-series.png" alt="Imagem da prova street series">
+                <figcaption class="caption">
+                    <h3>SHOPPING SERIES</h3>
+                    <p>10 etapas</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                </figcaption> 
+            </figure>
+
+            <figure class="thumbnail">
+                <img src="img/series/ecoparques-series.png" alt="Imagem da prova street series">
+                <figcaption class="caption">
+                    <h3>ECOPARQUES SERIES</h3>
+                    <p>12 etapas</p>
+                    <p><a href="#" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                </figcaption> 
+            </figure>
+
+            <!--Rodapé-->
+            <footer class="panel panel-default">
                 <div class="panel-heading">   
-                    <h3 class="panel-title" data-toggle="collapse" data-target="#pragrafo-rodape" data-parent="#paineis-instrucao">[RODAPÉ] - Informações e links extras</h3>
+                    <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-rodape" data-parent="#paineis-instrucao">
+                        [RODAPÉ] - Informações e links extras
+                    </h2>
                 </div>
                 <div id="pragrafo-rodape" class="collapse">
-                    <div class="panel-body">
-                         <p>- Links para: Home, Provas, Contato, Atendimento, Ajuda, Fac, Redes Sociais, Parceiros etc...</p>
-                    </div>
+                    <ul class="panel-body">
+                        <li>Links para: Home, Provas, Contato, Atendimento, Ajuda, Fac, Redes Sociais, Parceiros etc...</li>
+                    </ul>
                 </div>
-            </div>
+            </footer>
 
         </div>
     </div>
