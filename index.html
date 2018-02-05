@@ -4,13 +4,161 @@
     <title>Conheça Brasília Correndo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
-    <div class="container">
+    <!--CAROUSEL-MOBILE-->
+    <section id="img-slide-mob" class="carousel slide hidden-md hidden-lg" data-ride="carousel">
+        <!-- Indicators -->
+        <ol id="indicadores-carousel-mob" class="carousel-indicators container">
+            <li data-target="#img-slide-mob" data-slide-to="0" class="active"></li>
+            <li data-target="#img-slide-mob" data-slide-to="1"></li>
+            <li data-target="#img-slide-mob" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div id="img-slide-mob" class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="series.html">
+                    <img src="img/capas/street-series-capa.png" alt="Imagem capa da Street Series">
+                </a>
+                <figcaption id=legenda-img-grande-mob class="caption container">
+                    <p>12 etapas</p>
+                    <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                </figcaption>             
+            </div>
+            <div class="item">
+                <a href="series.html">
+                    <img src="img/capas/shopping-series-capa.png" alt="Imagem capa da Shopping Series">
+                </a>
+                <figcaption id=legenda-img-grande-mob class="caption container">
+                    <p>10 etapas</p>
+                    <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                </figcaption>
+            </div>
+            <div class="item">
+                <a href="series.html">
+                    <img src="img/capas/ecoparques-series-capa.png" alt="Imagem capa da Ecoparques Series">
+                </a>
+                <figcaption id=legenda-img-grande-mob class="caption container">
+                    <p>12 etapas</p>
+                    <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                </figcaption>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a id="slide-esquerda-mob" class="left carousel-control" href="#img-slide-mob" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a id="slide-esquerda-mob" class="right carousel-control" href="#img-slide-mob" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
+
+    <!--CAROUSEL-->
+    <section id="img-slide" class="carousel slide hidden-xs hidden-sm" data-ride="carousel">
+        <!-- Indicators -->
+        <ol id="indicadores-carousel" class="carousel-indicators container">
+            <li data-target="#img-slide" data-slide-to="0" class="active"></li>
+            <li data-target="#img-slide" data-slide-to="1"></li>
+            <li data-target="#img-slide" data-slide-to="2"></li>
+        </ol>       
+
+        <!-- Wrapper for slides -->
+        <div id="img-slide" class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="series.html">
+                    <img src="img/capas/street-series-capa.png" alt="Imagem capa da Street Series">
+                </a>
+                <figcaption id=legenda-img-grande class="carousel-caption container">
+                    <p>12 etapas</p>
+                    <p><a id="botao-capa" href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                </figcaption>            
+            </div>
+            <div class="item">
+                <a href="series.html">
+                    <img src="img/capas/shopping-series-capa.png" alt="Imagem capa da Shopping Series">
+                </a>
+                <figcaption id=legenda-img-grande class="carousel-caption container">
+                    <p>10 etapas</p>
+                    <p><a id="botao-capa" href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                </figcaption>
+            </div>
+            <div class="item">
+                <a href="series.html">
+                    <img src="img/capas/ecoparques-series-capa.png" alt="Imagem capa da Ecoparques Series">
+                </a>
+                <figcaption id=legenda-img-grande class="carousel-caption container">
+                    <p>12 etapas</p>
+                    <p><a id="botao-capa" href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                </figcaption>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#img-slide" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#img-slide" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
+
+    <!--GALERIAS-->
+    <section class="container">
+        <div class="row"-->
+            <div class="col-md-3">
+                <figure class="thumbnail">
+                     <a href="series.html"><img src="img/series/street-series.png" alt="Imagem da prova Street Series"></a>
+                    <figcaption class="caption">
+                        <h4>STREET SERIES</h4>
+                        <br>
+                        <p>12 etapas</p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                        <hr>
+                        <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="thumbnail">
+                    <a href="series.html"><img src="img/series/shopping-series.png" alt="Imagem da prova Shopping Series"></a>
+                    <figcaption class="caption">
+                        <h4>SHOPPING SERIES</h4>
+                        <br>
+                        <p>10 etapas</p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                        <hr>
+                        <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
+                    </figcaption> 
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure class="thumbnail">
+                     <a href="series.html"><img src="img/series/ecoparques-series.png" alt="Imagem da prova Ecoparques Series"></a>
+                    <figcaption class="caption">
+                        <h4>ECOPARQUES SERIES</h4>
+                        <br>
+                        <p>12 etapas</p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                        <hr>
+                        <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
+                    </figcaption> 
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!--REQUISITOS-->
+    <section class="container">
         <div class="panel-group" id="paineis-instrucao">
-            
             <!--Navbar-->
             <nav class="panel panel-default">
                 <div class="panel-heading">
@@ -18,7 +166,7 @@
                         [NAVBAR] Logo, campo de pesquisa e menus (atalhos, login, loja e etc)
                     </h2>
                 </div>
-                <div id="pragrafo-navbar" class="collapse in">
+                <div id="pragrafo-navbar" class="collapse">
                     <ul class="panel-body">
                         <li>A navbar deve acompanhar a navegação até o final da página</li>
                         <li>Pode conter icone de alerta com mensagens, promoções, notícias, etc</li>
@@ -26,26 +174,24 @@
                     </ul>
                 </div>
             </nav>
-
             <!--Imagens Grandes-->
             <header class="panel panel-default">
                 <div class="panel-heading">   
                     <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-imagem" data-parent="#paineis-instrucao">
-                        [IMAGENS GRANDES] Imagem no estilo Carrossel, ocupando a tela toda
+                        [IMAGENS-SLIDE GRANDES] Imagem no estilo Carrossel, ocupando a tela toda
                     </h2>
                 </div>
                 <div id="pragrafo-imagem" class="collapse">
                     <ul class="panel-body">
-                        <li>Na imagem deve conter informações básicas da prova(Nome da prova, numero de etapas, nível e quantidade de etapas realizadas) além do botão de se increver/acompanhar(para logados incritos)</li>
+                        <li>Na imagem deve conter informações básicas da prova(Nome da prova, numero de etapas, nível e quantidade de etapas realizadas) além do botão de se increver</li>
                     </ul>
                 </div>
             </header>
-
             <!--Provas-->
             <main class="panel panel-default">
                 <div class="panel-heading">   
                     <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-provas" data-parent="#paineis-instrucao">
-                        [PROVAS] Imagens clicáveis, estilo tumbnails (galerias) com as provas disponíveis
+                        [GALERIA DE PROVAS] Imagens clicáveis, estilo tumbnails (galerias) com as provas disponíveis
                     </h2>
                 </div>
                 <div id="pragrafo-provas" class="collapse">
@@ -56,36 +202,7 @@
                         <li>Na parte geral, deve ter link iconificado para pagina com todas as provas e etapas</li>
                     </ul>
                 </div>
-            </main>        
-
-                <!--Tubnails-->
-            <figure class="thumbnail">
-                <img src="img/series/street-series.png" alt="Imagem da prova street series">
-                <figcaption class="caption">
-                    <h3>STREET SERIES</h3>
-                    <p>12 etapas</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Inscreva-se</a></p>
-                </figcaption> 
-            </figure>
-
-            <figure class="thumbnail">
-                <img src="img/series/shopping-series.png" alt="Imagem da prova street series">
-                <figcaption class="caption">
-                    <h3>SHOPPING SERIES</h3>
-                    <p>10 etapas</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Inscreva-se</a></p>
-                </figcaption> 
-            </figure>
-
-            <figure class="thumbnail">
-                <img src="img/series/ecoparques-series.png" alt="Imagem da prova street series">
-                <figcaption class="caption">
-                    <h3>ECOPARQUES SERIES</h3>
-                    <p>12 etapas</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Inscreva-se</a></p>
-                </figcaption> 
-            </figure>
-
+            </main>            
             <!--Rodapé-->
             <footer class="panel panel-default">
                 <div class="panel-heading">   
@@ -99,9 +216,8 @@
                     </ul>
                 </div>
             </footer>
-
         </div>
-    </div>
+    </section>
 
     <script src="jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
