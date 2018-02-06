@@ -9,55 +9,26 @@
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
-    <!--CAROUSEL-MOBILE-->
-    <section id="img-slide-mob" class="carousel slide hidden-md hidden-lg" data-ride="carousel">
-        <!-- Indicators -->
-        <ol id="indicadores-carousel-mob" class="carousel-indicators container">
-            <li data-target="#img-slide-mob" data-slide-to="0" class="active"></li>
-            <li data-target="#img-slide-mob" data-slide-to="1"></li>
-            <li data-target="#img-slide-mob" data-slide-to="2"></li>
-        </ol>
 
-        <!-- Wrapper for slides -->
-        <div id="img-slide-mob" class="carousel-inner" role="listbox">
-            <div class="item active">
-                <a href="series.html">
-                    <img src="img/capas/street-series-capa.png" alt="Imagem capa da Street Series">
-                </a>
-                <figcaption id=legenda-img-grande-mob class="caption container">
-                    <p>12 etapas</p>
-                    <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
-                </figcaption>             
-            </div>
-            <div class="item">
-                <a href="series.html">
-                    <img src="img/capas/shopping-series-capa.png" alt="Imagem capa da Shopping Series">
-                </a>
-                <figcaption id=legenda-img-grande-mob class="caption container">
-                    <p>10 etapas</p>
-                    <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
-                </figcaption>
-            </div>
-            <div class="item">
-                <a href="series.html">
-                    <img src="img/capas/ecoparques-series-capa.png" alt="Imagem capa da Ecoparques Series">
-                </a>
-                <figcaption id=legenda-img-grande-mob class="caption container">
-                    <p>12 etapas</p>
-                    <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
-                </figcaption>
+<!--REQUISITOS-->
+    <section class="container">
+        <div class="panel-group" id="paineis-instrucao">
+            <!--Navbar-->
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-navbar" data-parent="#paineis-instrucao">
+                        [NAVBAR] Logo, campo de pesquisa e menus (atalhos, login, loja e etc)
+                    </h2>
+                </div>
+                <div id="pragrafo-navbar" class="collapse">
+                    <ul class="panel-body">
+                        <li>A navbar deve acompanhar a navegação até o final da página</li>
+                        <li>Pode conter icone de alerta com mensagens, promoções, notícias, etc</li>
+                        <li>Pode conter submenus laterais (minimizados em estilo sanduiche)</li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-        <!-- Controls -->
-        <a id="slide-esquerda-mob" class="left carousel-control" href="#img-slide-mob" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a id="slide-esquerda-mob" class="right carousel-control" href="#img-slide-mob" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </section>
 
     <!--CAROUSEL-->
@@ -77,7 +48,7 @@
                 </a>
                 <figcaption id=legenda-img-grande class="carousel-caption container">
                     <p>12 etapas</p>
-                    <p><a id="botao-capa" href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                    <p><a id="botao-capa" href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
                 </figcaption>            
             </div>
             <div class="item">
@@ -86,7 +57,7 @@
                 </a>
                 <figcaption id=legenda-img-grande class="carousel-caption container">
                     <p>10 etapas</p>
-                    <p><a id="botao-capa" href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                    <p><a id="botao-capa" href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
                 </figcaption>
             </div>
             <div class="item">
@@ -95,7 +66,7 @@
                 </a>
                 <figcaption id=legenda-img-grande class="carousel-caption container">
                     <p>12 etapas</p>
-                    <p><a id="botao-capa" href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                    <p><a id="botao-capa" href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
                 </figcaption>
             </div>
         </div>
@@ -111,8 +82,65 @@
         </a>
     </section>
 
+    <!--CAROUSEL-MOBILE-->
+    <section id="img-slide-mob" class="carousel slide hidden-md hidden-lg" data-ride="carousel">
+        <!-- Indicators -->
+        <ol id="indicadores-carousel-mob" class="carousel-indicators container">
+            <li data-target="#img-slide-mob" data-slide-to="0" class="active"></li>
+            <li data-target="#img-slide-mob" data-slide-to="1"></li>
+            <li data-target="#img-slide-mob" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div id="img-slide-mob" class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="series.html">
+                    <img src="img/capas/street-series-capa.png" alt="Imagem capa da Street Series">
+                </a>
+                <figcaption id=legenda-img-grande-mob class="caption container">
+                    <p>12 etapas</p>
+                    <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
+                </figcaption>             
+            </div>
+            <div class="item">
+                <a href="series.html">
+                    <img src="img/capas/shopping-series-capa.png" alt="Imagem capa da Shopping Series">
+                </a>
+                <figcaption id=legenda-img-grande-mob class="caption container">
+                    <p>10 etapas</p>
+                    <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
+                </figcaption>
+            </div>
+            <div class="item">
+                <a href="series.html">
+                    <img src="img/capas/ecoparques-series-capa.png" alt="Imagem capa da Ecoparques Series">
+                </a>
+                <figcaption id=legenda-img-grande-mob class="caption container">
+                    <p>12 etapas</p>
+                    <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
+                </figcaption>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a id="slide-esquerda-mob" class="left carousel-control" href="#img-slide-mob" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a id="slide-esquerda-mob" class="right carousel-control" href="#img-slide-mob" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>    
+
+     <!--Link todas das provas-->
+        <div id="link-provas" class="jumbotron">
+            <h3><span class="glyphicon glyphicon-flag"></span><a href="series.html"> Ver todas as series</h3></a>
+        </div>
+
     <!--GALERIAS-->
-    <section class="container">
+    <main id=main class="container">
+
         <div class="row"-->
             <div class="col-md-3">
                 <figure class="thumbnail">
@@ -121,7 +149,7 @@
                         <h4>STREET SERIES</h4>
                         <br>
                         <p>12 etapas</p>
-                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
                         <hr>
                         <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
                     </figcaption>
@@ -134,7 +162,7 @@
                         <h4>SHOPPING SERIES</h4>
                         <br>
                         <p>10 etapas</p>
-                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
                         <hr>
                         <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
                     </figcaption> 
@@ -147,77 +175,208 @@
                         <h4>ECOPARQUES SERIES</h4>
                         <br>
                         <p>12 etapas</p>
-                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-primary" role="button">Inscreva-se</a></p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
                         <hr>
                         <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
                     </figcaption> 
                 </figure>
             </div>
+            <div class="col-md-3">
+                <figure class="thumbnail">
+                     <a href="series.html"><img src="img/series/originals/corredores-de-rua.jpg" alt="Imagem da prova Street Series"></a>
+                    <figcaption class="caption">
+                        <h4>... SERIES</h4>
+                        <br>
+                        <p>X etapas</p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
+                        <hr>
+                        <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
+                    </figcaption>
+                </figure>
+            </div>
+                                                            <!--hidden mobile-->
+            <div class="col-md-3 hidden-xs hidden-sm">
+                <figure class="thumbnail">
+                     <a href="series.html"><img src="img/series/originals/corredores-de-rua.jpg" alt="Imagem da prova Street Series"></a>
+                    <figcaption class="caption">
+                        <h4>... SERIES</h4>
+                        <br>
+                        <p>X etapas</p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
+                        <hr>
+                        <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3 hidden-xs hidden-sm">
+                <figure class="thumbnail">
+                     <a href="series.html"><img src="img/series/originals/corredores-de-rua.jpg" alt="Imagem da prova Street Series"></a>
+                    <figcaption class="caption">
+                        <h4>... SERIES</h4>
+                        <br>
+                        <p>X etapas</p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
+                        <hr>
+                        <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3 hidden-xs hidden-sm">
+                <figure class="thumbnail">
+                     <a href="series.html"><img src="img/series/originals/corredores-de-rua.jpg" alt="Imagem da prova Street Series"></a>
+                    <figcaption class="caption">
+                        <h4>... SERIES</h4>
+                        <br>
+                        <p>X etapas</p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
+                        <hr>
+                        <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3 hidden-xs hidden-sm">
+                <figure class="thumbnail">
+                     <a href="series.html"><img src="img/series/originals/corredores-de-rua.jpg" alt="Imagem da prova Street Series"></a>
+                    <figcaption class="caption">
+                        <h4>... SERIES</h4>
+                        <br>
+                        <p>X etapas</p>
+                        <p><a id=botao-galeria href="inscricao.html" class="btn btn-default" role="button">Inscreva-se</a></p>
+                        <hr>
+                        <div id=mais-info><a id=mais-info href="series.html"><strong id="mais">+ INFORMAÇÕES</strong></a><div>
+                    </figcaption>
+                </figure>
+            </div>
         </div>
-    </section>
+    </main>
 
-    <!--REQUISITOS-->
-    <section class="container">
-        <div class="panel-group" id="paineis-instrucao">
-            <!--Navbar-->
-            <nav class="panel panel-default">
-                <div class="panel-heading">
-                    <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-navbar" data-parent="#paineis-instrucao">
-                        [NAVBAR] Logo, campo de pesquisa e menus (atalhos, login, loja e etc)
-                    </h2>
+    <div id="mais-series" class="jumbotron">
+        <h3><a class="btn btn-default" href="series.html"><span class="glyphicon glyphicon-plus-sign"></span> SÉRIES</h3></a>
+    </div>
+
+    <!--RODAPE-->
+    <footer>
+        <!--RODAPÉ NORMAL-->
+        <section class="container hidden-xs hidden-sm">
+            <div class="col-md-3">
+                <h5>SOBRE NÓS</h5>
+                <ul id="lista-rodape">
+                    <li><a href="#">[LOGO]</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>AJUDA</h5>
+                <ul id="lista-rodape">
+                    <li><a href="#">FAC</a></li>
+                    <li><a href="#">Iincrição em Grupo</a></li>
+                    <li><a href="#">Regras</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>CONTATO</h5>
+                <ul id="lista-rodape">
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li>(61)_____-____</a></li>
+                    <li>contato@...</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>SIGA-NOS</h5>
+                <ul id="lista-rodape">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+                <h5>CONHEÇA TAMBÉM</h5>
+                <ul id="lista-rodape">
+                    <li><a href="#">[PARCEIRO 1]</a></li>
+                    <li><a href="#">[PARCEIRO 2]</a></li>
+                    <li><a href="#">[PARCEIRO 3]</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--RODAPÉ MOBILE-->
+        <section class="panel-group" id="rodape-mob">
+            <div id="rodape-mob" class="panel panel-default hidden-md hidden-lg">
+                <div id="rodape-mob" class="panel-heading">   
+                    <h5 class="panel-title" data-toggle="collapse" data-target="#lista-logo" data-parent="#rodape-mob">
+                        SOBRE NÓS
+                    </h5>
                 </div>
-                <div id="pragrafo-navbar" class="collapse">
-                    <ul class="panel-body">
-                        <li>A navbar deve acompanhar a navegação até o final da página</li>
-                        <li>Pode conter icone de alerta com mensagens, promoções, notícias, etc</li>
-                        <li>Pode conter submenus laterais (minimizados em estilo sanduiche)</li>
+                <div id="lista-logo" class="collapse">
+                    <ul id="lista-rodape" class="panel-body">
+                        <li><a href="#">[LOGO]</a></li>
                     </ul>
                 </div>
-            </nav>
-            <!--Imagens Grandes-->
-            <header class="panel panel-default">
-                <div class="panel-heading">   
-                    <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-imagem" data-parent="#paineis-instrucao">
-                        [IMAGENS-SLIDE GRANDES] Imagem no estilo Carrossel, ocupando a tela toda
-                    </h2>
+            </div>
+
+            <div id="rodape-mob" class="panel panel-default hidden-md hidden-lg">
+                <div id="rodape-mob" class="panel-heading">   
+                    <h5 class="panel-title" data-toggle="collapse" data-target="#lista-ajuda" data-parent="#rodape-mob">
+                        AJUDA
+                    </h5>
                 </div>
-                <div id="pragrafo-imagem" class="collapse">
-                    <ul class="panel-body">
-                        <li>Na imagem deve conter informações básicas da prova(Nome da prova, numero de etapas, nível e quantidade de etapas realizadas) além do botão de se increver</li>
+                <div id="lista-ajuda" class="collapse">
+                    <ul id="lista-rodape" class="panel-body">
+                        <li><a href="#">FAC</a></li>
+                        <li><a href="#">Iincrição em Grupo</a></li>
+                        <li><a href="#">Regras</a></li>
                     </ul>
                 </div>
-            </header>
-            <!--Provas-->
-            <main class="panel panel-default">
-                <div class="panel-heading">   
-                    <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-provas" data-parent="#paineis-instrucao">
-                        [GALERIA DE PROVAS] Imagens clicáveis, estilo tumbnails (galerias) com as provas disponíveis
-                    </h2>
+            </div>
+
+            <div id="rodape-mob" class="panel panel-default hidden-md hidden-lg">
+                <div id="rodape-mob" class="panel-heading">   
+                    <h5 class="panel-title" data-toggle="collapse" data-target="#lista-contato" data-parent="#rodape-mob">
+                        CONTATO
+                    </h5>
                 </div>
-                <div id="pragrafo-provas" class="collapse">
-                    <ul class="panel-body">
-                        <li>Cada imagem contém as informações básicas das provas (nomes, tipo, nível, número de etapas etc)</li>
-                        <li>São links para as subpáginas das provas</li>
-                        <li>Deve ter botão de mais informações, redirecionado para a página da prova e botão de se inscrever</li>
-                        <li>Na parte geral, deve ter link iconificado para pagina com todas as provas e etapas</li>
+                <div id="lista-contato" class="collapse">
+                    <ul id="lista-rodape" class="panel-body">
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li>(61)_____-____</a></li>
+                        <li>contato@...</a></li>
                     </ul>
                 </div>
-            </main>            
-            <!--Rodapé-->
-            <footer class="panel panel-default">
-                <div class="panel-heading">   
-                    <h2 class="panel-title" data-toggle="collapse" data-target="#pragrafo-rodape" data-parent="#paineis-instrucao">
-                        [RODAPÉ] - Informações e links extras
-                    </h2>
+            </div>
+
+            <div id="rodape-mob" class="panel panel-default hidden-md hidden-lg">
+                <div id="rodape-mob" class="panel-heading">   
+                    <h5 class="panel-title" data-toggle="collapse" data-target="#lista-siga" data-parent="#rodape-mob">
+                        SIGA-NOS
+                    </h5>
                 </div>
-                <div id="pragrafo-rodape" class="collapse">
-                    <ul class="panel-body">
-                        <li>Links para: Home, Provas, Contato, Atendimento, Ajuda, Fac, Redes Sociais, Parceiros etc...</li>
+                <div id="lista-siga" class="collapse">
+                    <ul id="lista-rodape" class="panel-body">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
                     </ul>
                 </div>
-            </footer>
-        </div>
-    </section>
+            </div>
+
+            <div id="rodape-mob" class="panel panel-default hidden-md hidden-lg">
+                <div id="rodape-mob" class="panel-heading">   
+                    <h5 class="panel-title" data-toggle="collapse" data-target="#lista-conheca" data-parent="#rodape-mob">
+                        CONHEÇA TAMBÉM
+                    </h5>
+                </div>
+                <div id="lista-conheca" class="collapse">
+                    <ul id="lista-rodape" class="panel-body">
+                        <li><a href="#">[PARCEIRO 1]</a></li>
+                        <li><a href="#">[PARCEIRO 2]</a></li>
+                        <li><a href="#">[PARCEIRO 3]</a></li>
+                    </ul>
+                </div>            
+            </div>
+        </section>
+
+        <hr id="linha-rodape">
+        <div id="final" class="container">
+            ROOFA PRODUÇÕES - Copyright &copy; 2018 Todos os direitos reservados. - [Endereço e CEP], Distrito Federal - DF, Brasil - Telefone: (61)_____-____ - SAC: contato@...
+        </div>      
+    </footer>
 
     <script src="jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
